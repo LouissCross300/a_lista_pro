@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>A_Lista_Pró</title>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+    <header>
+        <h1>Lista de Tarefas</h1>
+    </header>
+
+    <nav class="menu">
+        <ul>
+        <li><a href="#" id="contador">Tarefas: 0</a></li>
+        <li><a href="#" id="btnLimparTudo">Remover Listas</a></li>
+        <li><a href="#" id="btnTema">Alterar Tema</a></li>
+        </ul>
+    </nav>
+
+    <section class="interações">
+        <input type="text" id="campoTarefa" placeholder="Digite sua tarefa">
+        <button id="btnAdicionar">Adicionar Tarefa</button>
+    </section>
+
+    <section class="lista-container">
+    <ul id="listaTarefas">
+        </ul>
+    </section>
+    <script src="script.js"></script>
+    </body>
+</html>
